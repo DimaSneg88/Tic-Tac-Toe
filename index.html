@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="null.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="tic">
+      <div class="score">
+        <div class="score__item">
+          <span>player X:</span> <span id="score-x">0</span>
+        </div>
+        <div class="score__item">
+          <span>player O:</span> <span id="score-o">0</span>
+        </div>
+        <div class="score__item">
+          <span>draft:</span> <span id="score-draft">0</span>
+        </div>
+      </div>
+      <div class="container">
+        <div class="tic__items">
+          <div class="tic__item" id="1"></div>
+          <div class="tic__item" id="2"></div>
+          <div class="tic__item" id="3"></div>
+          <div class="tic__item" id="4"></div>
+          <div class="tic__item" id="5"></div>
+          <div class="tic__item" id="6"></div>
+          <div class="tic__item" id="7"></div>
+          <div class="tic__item" id="8"></div>
+          <div class="tic__item" id="9"></div>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="close__button"><button class="close__modal">X</button></div>
+        <div class="modal__container">
+          <div class="result">
+            <h3 class="result__text">player X win!</h3>
+            <button class="result__restart">Play again</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
